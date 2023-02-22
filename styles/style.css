@@ -103,10 +103,6 @@
   font-size: 18px;
   font-weight: normal;
   margin: 0;
-}
-
-.two-columns__link {
-  text-decoration: none;
   color: #2f80ed;
 }
 
@@ -163,35 +159,34 @@
 
 .table {
   width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .table__cell {
   margin-top: 60px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 250px;
 }
 
 .table__heading {
-  width: 250px;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
+  margin: 0;
 }
 
 .table__text {
-  width: 250px;
   margin-top: 20px;
+  margin-bottom: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
 }
 
-.table__text-two {
-  margin-top: 20px;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
 
 /*секция 3 блок feynman*/
 
